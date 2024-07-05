@@ -228,7 +228,7 @@ const Prime = () => {
                   </div>
 
                   <div className="wrapper">
-                    <img className="food-img" src={food.image} alt="" />
+                    <img className="food-img" src={food.image_url} alt="" />
                   </div>
                 </div>
               ))}
