@@ -1,0 +1,43 @@
+.hdd-ccont {
+  padding-block: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: #fafafa;
+}
+
+.hdd-p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  font-style: normal;
+  color: black;
+}
+
+.recipeName {
+  padding-left: 50px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 25px;
+  color: black;
+}
+
+.searchArray {
+  display: flex;
+}
+
+.searchhe {
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.recipy-container {
+  align-self: center;
+}
+
+.recipes-cont {
+  background-color: #fafafa;
+  padding-block: 20px;
+  display: flex;
+  flex-direction: column;
+}

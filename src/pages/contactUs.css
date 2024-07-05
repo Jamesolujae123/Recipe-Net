@@ -1,0 +1,42 @@
+.abt {
+  position: absolute;
+  right: 30px;
+}
+
+.acc-3 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  height: 200px;
+  font-size: 35px;
+  font-style: normal;
+  position: absolute;
+  right: 0;
+}
+
+.intro-2 {
+  position: relative;
+  background-image: url("../assets/background.jpg");
+  background-size: cover;
+  padding-block: 100px;
+}
+
+.tng {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  height: 200px;
+  font-size: 15px;
+  font-style: normal;
+  padding-top: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .abt {
+    right: 60px;
+  }
+
+  .tng {
+    padding-left: 20px;
+  }
+}

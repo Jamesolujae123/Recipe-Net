@@ -1,0 +1,54 @@
+.blog-tt {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
+}
+
+.b-dd {
+  display: flex;
+  flex-direction: column;
+}
+
+.bb-name {
+  height: 50px;
+  background-color: wheat;
+  width: 500px;
+  border: none;
+  outline: none;
+  padding-left: 7px;
+  border-radius: 10px;
+}
+
+.bb-d-name {
+  background-color: wheat;
+  height: 150px;
+  padding-left: 10px;
+  padding-top: 5px;
+  border-radius: 11px;
+  width: 900px;
+  border: none;
+  outline: none;
+}
+
+@media screen and (max-width: 600px) {
+  .bb-name {
+    width: 300px;
+  }
+
+  .bb-d-name {
+    width: 300px;
+  }
+
+  .sb {
+    width: 300px;
+  }
+
+  .acc-3 {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,310 @@
+.food-imgr {
+  width: 280px;
+  border-radius: 15px;
+  padding-block: 20px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 60px;
+  gap: 20px;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  font-style: normal;
+  color: black;
+  background-color: rgba(255, 166, 0, 0.377);
+}
+
+.img-video-sec {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+/* .ingr-prep {
+  display: flex;
+  gap: 30px;
+} */
+
+.add-cont {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-bottom: 50px;
+}
+
+.head {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  font-style: normal;
+  color: black;
+}
+
+.add-cont::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 10px;
+  font-style: normal;
+  color: black;
+}
+
+.r-name {
+  background-color: wheat;
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  width: 350px;
+  padding-left: 10px;
+  outline: green;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  font-style: normal;
+  color: black;
+}
+
+.d-name {
+  background-color: wheat;
+  border: none;
+  border-radius: 10px;
+  height: 140px;
+  width: 350px;
+  padding-left: 10px;
+  outline: green;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 13px;
+  color: black;
+  padding-block: 5px;
+}
+
+.r-name::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  font-style: normal;
+  color: black;
+}
+
+.ingred {
+  background-color: wheat;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  outline: none;
+  width: 600px;
+  height: 280px;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  font-style: normal;
+  color: black;
+}
+
+.tpp {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.steps {
+  background-color: wheat;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  outline: none;
+  width: 600px;
+  border: none;
+  height: 270px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  font-style: normal;
+  color: black;
+}
+
+.fom {
+  width: max-content;
+  display: flex;
+  border-radius: 20px;
+  gap: 20px;
+  align-self: center;
+  padding-block: 20px;
+  flex-direction: column;
+  padding-inline: 20px;
+}
+
+.sb {
+  width: 350px;
+  background-color: rgba(216, 11, 45, 0.781);
+  border: none;
+  border-radius: 10px;
+  padding-block: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  font-style: normal;
+  align-self: center;
+  color: white;
+  transition: 1s ease;
+}
+
+.sb:hover {
+  background-color: orange;
+}
+
+.food-p {
+  height: 500px;
+}
+
+.food-prep {
+  width: 700px;
+  display: flex;
+  gap: 42px;
+}
+
+.tingss {
+  font-family: "Satisfy", cursive;
+  font-weight: 700;
+  font-size: 30px;
+  font-style: normal;
+  color: gray;
+  padding-left: 15px;
+}
+
+.food-n {
+  display: flex;
+  gap: 25px;
+}
+
+.ingr-container {
+  width: 450px;
+  background-color: wheat;
+  border: none;
+  margin-top: 30px;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-block: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  font-style: normal;
+  color: black;
+}
+
+.bap {
+  margin-top: 60px;
+}
+
+.til {
+  display: flex;
+}
+
+.title-contt {
+  display: flex;
+  gap: 50px;
+}
+
+.dd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.img-video-sec {
+  flex-direction: column;
+}
+
+.tt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: max-content;
+  width: max-content;
+}
+
+.pp-cc {
+  display: flex;
+  gap: 25px;
+}
+
+.ck.ck-editor__top .ck-sticky-panel .ck-sticky-panel__content .ck-menu-bar,
+.ck.ck-editor__top .ck-sticky-panel .ck-sticky-panel__content .ck-toolbar {
+  padding-left: 22px;
+  width: 700px;
+}
+
+.ck-rounded-corners .ck.ck-editor__main > .ck-editor__editable,
+.ck.ck-editor__main > .ck-editor__editable.ck-rounded-corners {
+  padding-left: 22px;
+}
+
+@media screen and (max-width: 600px) {
+  .title-contt {
+    flex-direction: column;
+  }
+  .food-imgr {
+    flex-direction: column;
+    width: 360px;
+    align-items: center;
+  }
+
+  .r-name {
+    width: 290px;
+  }
+
+  .fom {
+    background-position: center;
+    background-size: cover;
+    margin-left: 0px;
+    padding-left: 25px;
+    width: 400px;
+  }
+
+  .ing-cc {
+  }
+
+  .pp-cc {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .op {
+    width: 300px;
+  }
+
+  .ck.ck-editor__top .ck-sticky-panel .ck-sticky-panel__content .ck-menu-bar,
+  .ck.ck-editor__top .ck-sticky-panel .ck-sticky-panel__content .ck-toolbar {
+    padding-left: 22px;
+    width: 350px;
+  }
+  .ck-rounded-corners .ck.ck-editor__main > .ck-editor__editable,
+  .ck.ck-editor__main > .ck-editor__editable.ck-rounded-corners {
+    padding-left: 22px;
+    width: 350px;
+  }
+  .ck.ck-editor__top .ck-sticky-panel .ck-sticky-panel__content {
+    width: 350px;
+  }
+
+  .ingr-container {
+    width: 350px;
+  }
+
+  .add-cont {
+    overflow-x: hidden;
+  }
+
+  .food-n {
+    flex-direction: column;
+  }
+
+  .acc-3 {
+  }
+}

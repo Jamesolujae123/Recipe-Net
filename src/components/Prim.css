@@ -1,0 +1,65 @@
+.divo {
+  display: flex;
+  padding-top: 15px;
+  width: 100%;
+  background-color: #fafafa;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+
+.hdd-ccont {
+  align-items: center;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.rated {
+  margin-left: 140px;
+  font-family: "Satisfy", cursive;
+  font-weight: 700;
+  font-size: 30px;
+  font-style: normal;
+  color: gray;
+}
+
+.prim-cc {
+  padding-block: 50px;
+  background-color: #fafafa;
+}
+
+.recipe-search {
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 400px;
+  padding-left: 5px;
+  background-color: wheat;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 13px;
+  color: black;
+}
+
+.recipe-search-cont {
+  display: flex;
+}
+.rep-search-button {
+  border: none;
+  background-color: rgba(216, 11, 45, 0.781);
+  width: 100px;
+  color: white;
+  transition: 0.5s ease;
+}
+
+.rep-search-button:hover {
+  color: black;
+  background-color: orange;
+}
+
+.prim-flexxy {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
